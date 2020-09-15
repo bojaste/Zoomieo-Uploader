@@ -1,7 +1,7 @@
 import requests
 import json
 
-JWT_Key = ""
+JWT_Key = "Your key here"
 
 
 # Gets the unique user ID associated with the users email
