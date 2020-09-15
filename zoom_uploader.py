@@ -44,3 +44,5 @@ def download_meeting(meetingID):
 def save_meeting(meeting):
 	with open("zoom.mp4", "wb") as f:
 		f.write(download_meeting(meeting))
+		
+#Vimeo Portion will be uploaded soon. Still testing it. Next I'll be building in smarter functionality so it can be used as a job with varibles		 
